@@ -1,0 +1,53 @@
+.body{
+    background: linear-gradient( darkblue, lightskyblue);
+    position: relative;
+    background-position:;
+    overflow: hidden;
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-color: lightseagreen;
+    border-radius: 75%;
+    text-decoration: white
+  
+    
+}
+
+
+.banner{
+    background-color:lightskyblue;
+    border-radius: 50rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.grid {
+    align-content: center;
+    padding-left: 40%;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: lawngreen;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: bisque;
+}
+
+.laser {
+	background-color: red;
+}
+
+.boom {
+	background-color: orangered;
